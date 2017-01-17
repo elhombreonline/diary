@@ -1,23 +1,17 @@
 code to be added on HEAD section of every page
-
 <!-- Google DFP -->
-<script type='text/javascript'>
-  (function() {
-    var useSSL = 'https:' == document.location.protocol;
-    var src = (useSSL ? 'https:' : 'http:') +
-        '//www.googletagservices.com/tag/js/gpt.js';
-    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-  })();
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
 </script>
+
 
 <script type='text/javascript'>
   googletag.cmd.push(function() {
     googletag.defineSlot('/132061177/ELH_ros_1x1_Interstical', [1, 1], 'div-gpt-ad-1475157563267-0').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_ros_1x1_Background', [1, 1], 'div-gpt-ad-1475155964983-5').addService(googletag.pubads());
-    googletag.defineSlot('/132061177/ELH_ros_back-left_120x600', [120, 600], 'div-gpt-ad-1475594313618-1').addService(googletag.pubads());
-    googletag.defineSlot('/132061177/ELH_ros_back-right_120x600', [120, 600], 'div-gpt-ad-1475594313618-2').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
-    googletag.pubads().enableSyncRendering();
     googletag.enableServices();
   });
 </script>
@@ -345,22 +339,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475155964983-5');
 </script>
 </div>
 <div class="ad-outer ad-left">
-<!-- /132061177/ELH_ros_back-left_120x600 -->
-<div id='div-gpt-ad-1475594313618-1' style='height:600px; width:120px;'>
-<script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475594313618-1'); });
-</script>
-</div></div>
+</div>
 <div class="ad-outer ad-right">
-
-<!-- /132061177/ELH_ros_back-right_120x600 -->
-<div id='div-gpt-ad-1475594313618-2' style='height:600px; width:120px;'>
-<script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475594313618-2'); });
-</script>
 </div>
-</div>
-
 </div>
 <!-- /132061177/ELH_ros_1x1_Interstical -->
 <div id='div-gpt-ad-1475157563267-0' style='height:1px; width:1px;'>
@@ -388,6 +369,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
 </script>
 <!-- End TailTarget Tag Manager -->
 <script id="navegg" type="text/javascript" src="https://tag.navdmp.com/tm39271.js" ></script>
+
 
 
 
