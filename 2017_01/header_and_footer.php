@@ -358,14 +358,13 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
 <script async src="https://cdn.onthe.io/io.js/LO0ExZ1bxkta"></script>
 <!-- TailTarget Tag Manager TT-11475-8/CT-572 -->
 <script>
-    (function(i) {
-    var ts = document.createElement('script');
-    ts.type = 'text/javascript';
-    ts.async = true;
-    ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ts, s);
-    })('TT-11475-8/CT-572');
+var _ttq = _ttq || [];
+_ttq.push(["_setAccount", "TT-11475-8"]);
+(function() {
+var ts = document.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+ts.src =  ("https:" == document.location.protocol ? "https://" : "http://") + "d.tailtarget.com/base.js";
+var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);
+})();
 </script>
 <!-- End TailTarget Tag Manager -->
 <script id="navegg" type="text/javascript" src="https://tag.navdmp.com/tm39271.js" ></script>
@@ -395,12 +394,55 @@ Added just after the <body> tag
     margin-right: -615px;
     position: fixed;
 }
-
 .ad-outer {
     top: 30px;
 }
 </style>
+<!-- Barra do IG-->
+<div id="ig-barra2">
+<script type="text/javascript" src="http://js.statig.com.br/barraiG/parceiros/barra_parceiros.js"></script>
+</div>
+<style>
+@media only screen and (min-width: 768px){ 
+	#hdr-ig {
+	top: 0 !important;
+	width: 100%;
+	z-index: 999!important;
+	position: fixed!important;
+	}
+}
+#ig-barra2{
+	display: none;
+}
+</style> 
+<script type="text/javascript">
+	(function(){
+		function $iGDomReady(fn) {if (document.readyState != 'loading'){fn();} else {document.addEventListener('DOMContentLoaded', fn);}}
+		
+		var initFixHeader = function(){
+			var ehMenu = document.querySelector(".cb-top-menu-wrap");
+			var igMenu = document.getElementById('ig-barra2');
+			if(!ehMenu || ! igMenu) return;
 
+			var igMenuHeight = igMenu.offsetHeight;
+			ehMenu.style.position='relative';
+			igMenu.style.display = 'block';
+			document.addEventListener("scroll", function iGhMenu() {
+				var scrollTop = window.pageYOffset;
+				if (scrollTop >= igMenuHeight){
+					document.getElementById('ig-barra2').style.display = "none";
+					ehMenu.style.position='fixed';
+				}
+				if (scrollTop <= igMenuHeight){
+					ehMenu.style.position='relative';
+					document.getElementById('ig-barra2').style.display = "block";
+				}
+			});
+		};
+		$iGDomReady(initFixHeader);
+	})();
+</script>
+<!-- IG - Barra some -->
 
 
 POST Content
