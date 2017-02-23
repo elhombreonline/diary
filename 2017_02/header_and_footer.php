@@ -1,20 +1,38 @@
-code to be added on HEAD section of every page
+<!-- Google ADS -->
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?<?php echo time(); ?>"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3829748395962560",
+    enable_page_level_ads: true
+  });
+</script>
 <!-- Google DFP -->
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+ <style> #cb-container {z-index:99;} #cb-footer{z-index:99;}</style> 
+<!-- <script type='text/javascript'>
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js?<?php echo time(); ?>';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+</script> -->
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js?:<?php echo time(); ?>'></script>
 <script>
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
-</script>
-
-
+</script> 
 <script type='text/javascript'>
   googletag.cmd.push(function() {
     googletag.defineSlot('/132061177/ELH_ros_1x1_Interstical', [1, 1], 'div-gpt-ad-1475157563267-0').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_ros_1x1_Background', [1, 1], 'div-gpt-ad-1475155964983-5').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_ros_back-left_120x600', [120, 600], 'div-gpt-ad-1475594313618-1').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_ros_back-right_120x600', [120, 600], 'div-gpt-ad-1475594313618-2').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
+
     googletag.enableServices();
   });
 </script>
+
 <!-- Fim do DFP -->
 
 <!-- Cabeçalho das Ads do El Hombre sequenciados por Home, Internas, Mobile -->
@@ -26,7 +44,6 @@ $palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
 $berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
 $ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $symbian =  strpos($_SERVER['HTTP_USER_AGENT'],"Symbian");
-
 // Versao Dekstop
 if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == true) {
  wp_reset_query(); 
@@ -111,9 +128,6 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
     googletag.enableServices();
   });
 </script>
-<!-- Scripts de Ads -->
-<script src="http://gonzalezzmaster.appspot.com/v3/clover.js?pmu=fdf8dc92;pmb=2005d87f;slot=.cb-entry-content%20p;slot_pos=3;id=1478797787" id="clover-1478797787" async=""></script>
-<script type='text/javascript' src='//tag.imonomy.com/script/14567720072/preload.js' async></script>
 <!-- Background DFP codigos dos blocs de anuncios -->
 <div class="publicidade_desktop">
 <!-- DFP Ros-->
@@ -243,7 +257,30 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
 <?php } elseif (in_category('especiais')) {?>
 <!-- Especial sem segmentaca -->
 
-<?php } elseif (in_category('app-runtastic')){?>
+<?php } elseif (in_category('philips-body-grooming')){?>
+<!-- /132061177/ELH_ros_1x1_Interstical -->
+<div id='div-gpt-ad-1475157563267-0' style='height:1px; width:1px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0'); });
+</script>
+</div>
+<div class="publicidade_desktop">
+<script type="text/javascript">               
+var body = window.top.document.getElementsByTagName('body')[0];
+body.style.backgroundImage = 'url(http://www.elhombre.com.br/wp-content/uploads/2017/01/WallPaperPhilips2.jpg)';
+body.style.backgroundPosition="50% 0%"; 
+body.style.backgroundAttachment = "fixed";
+body.style.backgroundRepeat = "no-repeat no-repeat";
+body.style.paddingTop = "197px";
+var a = document.createElement('A');
+a.href = 'https://rdm.reamp.com.br/clk?znid=337133&dvrtsrd=1000087&cid=1110133';
+a.target="_blank";
+a.id="cb-bg-to";
+a.rel="nofollow";
+body.appendChild(a);
+</script>
+<img src="https://ras.reamp.com.br/pxl?znid=337133&dvrtsrd=1000087&cb=<?=time()?> width="1" height="1" style="visibility:hidden" />
+</div>
 <?php } elseif (in_category('lifestyle-by-dr-jones')){?>
 <h1> </h1>
 <style>
@@ -339,9 +376,22 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475155964983-5');
 </script>
 </div>
 <div class="ad-outer ad-left">
-</div>
+<!-- /132061177/ELH_ros_back-left_120x600 -->
+<div id='div-gpt-ad-1475594313618-1' style='height:600px; width:120px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475594313618-1'); });
+</script>
+</div></div>
 <div class="ad-outer ad-right">
+
+<!-- /132061177/ELH_ros_back-right_120x600 -->
+<div id='div-gpt-ad-1475594313618-2' style='height:600px; width:120px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475594313618-2'); });
+</script>
 </div>
+</div>
+
 </div>
 <!-- /132061177/ELH_ros_1x1_Interstical -->
 <div id='div-gpt-ad-1475157563267-0' style='height:1px; width:1px;'>
@@ -354,158 +404,10 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
 <?php  if (in_category('lifestyle-by-dr-jones')){
 } else {?>
 <?php } ?>
-<!-- Tag Analytics -->
-<script async src="https://cdn.onthe.io/io.js/LO0ExZ1bxkta"></script>
-<!-- TailTarget Tag Manager TT-11475-8/CT-572 -->
-<script>
-var _ttq = _ttq || [];
-_ttq.push(["_setAccount", "TT-11475-8"]);
-(function() {
-var ts = document.createElement("script"); ts.type = "text/javascript"; ts.async = true;
-ts.src =  ("https:" == document.location.protocol ? "https://" : "http://") + "d.tailtarget.com/base.js";
-var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);
-})();
-</script>
-<!-- End TailTarget Tag Manager -->
-<script id="navegg" type="text/javascript" src="https://tag.navdmp.com/tm39271.js" ></script>
 
 
-
-
-
-Added just after the <body> tag
-
-<!--Background Ativo E apenas o Fundo Clicavel-->
-<script type="text/javascript">document.getElementsByTagName('body')[0].className+=' cb-sticky-sb-on cb-bg-to-on'</script>
-<style>
-@media only screen and (min-width: 768px){
-#cb-container {width: 990px; margin: 0 auto; background-color: white;}
-}
-</style>
-<!-- Background estilo esquerdo e direito -->
-<style>
-.ad-outer.ad-left {
-    left: 50%;
-    margin-left: -615px;
-    position: fixed;
-}
-.ad-outer.ad-right {
-    right: 50%;
-    margin-right: -615px;
-    position: fixed;
-}
-.ad-outer {
-    top: 30px;
-}
-</style>
-<!-- Barra do IG-->
-<div id="ig-barra2">
-<script type="text/javascript" src="http://js.statig.com.br/barraiG/parceiros/barra_parceiros.js"></script>
-</div>
-<style>
-@media only screen and (min-width: 768px){ 
-	#hdr-ig {
-	top: 0 !important;
-	width: 100%;
-	z-index: 999!important;
-	position: fixed!important;
-	}
-}
-#ig-barra2{
-	display: none;
-}
-</style> 
-<script type="text/javascript">
-	(function(){
-		function $iGDomReady(fn) {if (document.readyState != 'loading'){fn();} else {document.addEventListener('DOMContentLoaded', fn);}}
-		
-		var initFixHeader = function(){
-			var ehMenu = document.querySelector(".cb-top-menu-wrap");
-			var igMenu = document.getElementById('ig-barra2');
-			if(!ehMenu || ! igMenu) return;
-
-			var igMenuHeight = igMenu.offsetHeight;
-			ehMenu.style.position='relative';
-			igMenu.style.display = 'block';
-			document.addEventListener("scroll", function iGhMenu() {
-				var scrollTop = window.pageYOffset;
-				if (scrollTop >= igMenuHeight){
-					document.getElementById('ig-barra2').style.display = "none";
-					ehMenu.style.position='fixed';
-				}
-				if (scrollTop <= igMenuHeight){
-					ehMenu.style.position='relative';
-					document.getElementById('ig-barra2').style.display = "block";
-				}
-			});
-		};
-		$iGDomReady(initFixHeader);
-	})();
-</script>
-<!-- IG - Barra some -->
-
-
-POST Content
-<style>
-                      /* Disqus para os posts (single) */
-@media only screen and (max-width: 767px) {
-.load_disqus{
-font-size: 9px;
-  letter-spacing: 0px;
-}
-}
-.load_disqus {-webkit-transition: all 0.35s;
-  -transition: all 0.35s;
-  transition: all 0.35s;
-  display: inline-block;
-  height: 60px;
-  width: 50%;
-  color: #161616;
-  letter-spacing: 2px;
-  border: 2px solid #161616;
-  font-size: 18px;
-  text-transform: uppercase;
-  background: transparent;
-}
-
-.load_disqus a {-webkit-transition: all 0.35s;
-  -transition: all 0.35s;
-  transition: all 0.35s;
-  display: inline-block;
-  height: 60px;
-  line-height: 60px;
-  width: 50%;
-  color: #161616;
-  letter-spacing: 2px;
-  border: 2px solid #161616;
-  font-size: 18px;
-  text-transform: uppercase;
-  background: transparent;}
-
-
-  .load_disqus:hover{  background: #161616;
-  color: #fff;}</style>
-
-<?php  if (in_category(array('lifestyle-by-dr-jones','easynvest'))){
-} else {?>
-<script type="text/javascript">
-window._ttf = window._ttf || [];
-_ttf.push({
-       pid          : 60040
-       ,lang        : "pt"
-       ,slot        : '[itemprop="articleBody"] p'
-       ,format      : "inread"
-       ,minSlot     : 3
-       ,css         : "margin: 14px 0px;"
-});
-
-(function (d) {
-        var js, s = d.getElementsByTagName('script')[0];
-        js = d.createElement('script');
-        js.async = true;
-        js.src = '//cdn.teads.tv/media/format.js';
-        s.parentNode.insertBefore(js, s);
-})(window.document);
+<script type="text/javascript" 
+ src="//wfpscripts.webspectator.com/bootstrap/ws-399AD454.js">
 </script>
 
-<?php } ?>
+

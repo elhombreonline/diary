@@ -91,6 +91,8 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1482345705990-3');
 <div class="publicidade_desktop">
 
 </div>
+<?php } elseif (in_category('jaguar')){?>
+
 <?php } elseif (in_category('philips-body-grooming')){?>
 <?php } elseif (in_category('app-runtastic')){?>
 <div class="publicidade_desktop" style=" width:728px; height: 90px; margin: 0 auto;">
