@@ -1,3 +1,4 @@
+<style> #cb-container {z-index:99;} #cb-footer{z-index:99;} #cb-overlay {z-index:0;}</style> 
 <!-- Google ADS -->
 <script type='text/javascript'>
   (function() {
@@ -67,10 +68,17 @@ if (is_home() || is_front_page() == true) { ?>
 <!-- ELH Mobile Home -->
 <script>
   googletag.cmd.push(function() {
-googletag.defineSlot('/132061177/ELH_mobile_home_320x100_Rectangule1',  [320, 50], 'div-gpt-ad-1482149881821-0').addService(googletag.pubads());
+  googletag.defineSlot('/132061177/ELH_mobile_home_320x100_Rectangule1',  [320, 50], 'div-gpt-ad-1482149881821-0').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_Mobile_Home_300x250_Arroba2', [300, 250], 'div-gpt-ad-1477929672838-0').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_Mobile_Home_300x250_Arroba3', [300, 250], 'div-gpt-ad-1477929723432-0').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_mobile_home_300x250_Arroba4', [300, 250], 'div-gpt-ad-1477929494191-13').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeTV_300x250', [300, 250], 'div-gpt-ad-1487180295855-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeModa_300x250', [300, 250], 'div-gpt-ad-1487181094373-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeSexo_300x250', [300, 250], 'div-gpt-ad-1487181261032-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeLifestyle_300x250', [300, 250], 'div-gpt-ad-1487181834284-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeMusas_300x250', [300, 250], 'div-gpt-ad-1487181947244-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeAtitude_300x250', [300, 250], 'div-gpt-ad-1487182446848-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_mobile_homeEntretenimento_300x250', [300, 250], 'div-gpt-ad-1487182024427-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
@@ -140,10 +148,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
     googletag.defineSlot('/132061177/ELH_Home_950x250_Billboard1', [728, 90], 'div-gpt-ad-1477929494191-1').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_Home_950x250_Billboard2', [[728, 90], [950, 90], [300, 250], [950, 250]], 'div-gpt-ad-1477929494191-2').addService(googletag.pubads());
     googletag.defineSlot('/132061177/ELH_home_950x250_Billboard3', [[728, 90], [950, 90], [300, 250], [950, 250]], 'div-gpt-ad-1477929494191-3').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_homeRelacionamento_728x90_SuperBanner', [[728, 90], [950, 250], [950, 90]], 'div-gpt-ad-1486498085837-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_homeLifestyle_728x90_SuperBanner', [[728, 90], [950, 90]], 'div-gpt-ad-1486562326254-0').addService(googletag.pubads());
+    googletag.defineSlot('/132061177/ELH_homeEntretenimento_728x90_SuperBanner', [[728, 90],[950, 90]], 'div-gpt-ad-1486562438373-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
 </script>
+<img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=20463828&PluID=0&ord={random}&rtu=-1" width="0" height="0">
 <!-- Background DFP codigos dos blocs de anuncios -->
 <div class="publicidade_desktop">
 <!-- DFP Ros-->
@@ -422,9 +434,4 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475157563267-0');
 <?php } ?>
 
 
-<script type="text/javascript" 
- src="//wfpscripts.webspectator.com/bootstrap/ws-399AD454.js">
-</script>
 
-<!-- Tag para Container abaixo e serch sem overlay-->
-<style> #cb-container {z-index:99;} #cb-footer{z-index:99;} #cb-overlay {z-index:0;}</style> 
